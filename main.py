@@ -10,7 +10,7 @@ async def root():
 
 
 @app.get("/add/{num1}/{num2}")
-async def add(num1: int, num2: int):
+def add(num1: int, num2: int):
     "Add two numbers together"
 
     total = num1 + num2
